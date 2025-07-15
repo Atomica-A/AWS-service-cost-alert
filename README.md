@@ -1,6 +1,7 @@
 # AWS-service-cost-alert
 
 A simple AWS Lambda function that checks your daily AWS costs using the Cost Explorer API and sends a Telegram message if there’s any usage. It helps track spending and avoid exceeding the Free Tier.
+
 How It Works
 
     Lambda runs daily (scheduled via EventBridge).
